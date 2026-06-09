@@ -1,0 +1,96 @@
+/* Estilo general */
+body{
+font-family:"Roboto";
+margin:0;
+background-image: url("img/fondolavanda.jpg");
+background-position: center; 
+}
+
+/* Menú */
+nav {
+background-color: #140F16;
+padding:1px;
+text-align:center;
+}
+
+
+/* Enlaces */
+nav a{
+color: white;
+text-decoration:none;
+margin:20px;
+font-size:18px;
+padding:25px 45px;
+background-color: #2C212D;
+border-radius:12px;
+}
+
+/* Efecto al pasar el mouse */
+nav a:hover{
+background-color: #555;
+border-radius:5px;
+}
+
+.contenedor{
+background: #140F16;
+width: 80%;
+margin: auto;
+}
+
+header{
+height:400px;
+background-image: url("img/lavandabanner.jpg");
+background-position: center;
+background-size: cover;
+}
+
+main{
+background: #140F16;
+color: white;
+padding: 20px 30px;
+}
+
+main .foto{
+     width: 150px;
+     height: 150px;
+	 background-color: teal;
+	 border-radius:50%;
+     margin: -90px 0 20px 0;
+     border: 6px solid #ffffff;
+}
+
+main .foto img{
+width: 100%;
+border-radius: 50%;
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+footer{
+background-color:#140F16;
+text-align: center;
+padding: 25px;
+color: white;
+}
+
+.uno{
+width: 50%;
+border: 3px solid #000000;
+}
+
+.uno h1,p,a{
+background-color: #2C212D;
+color: white;
+margin: 20px;
+padding: 20px;
+}
+
+nav a{
+display: inline-block;
+border-radius: 50px;
+}
+
