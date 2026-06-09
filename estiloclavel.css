@@ -1,0 +1,95 @@
+/* Estilo general */
+body{
+font-family:"Roboto";
+margin:0;
+background-image: url("img/fondoclavel.jpg");
+background-position: center; 
+}
+
+/* Menú */
+nav {
+background-color: #EDDABA;
+padding:1px;
+text-align:center;
+}
+
+
+/* Enlaces */
+nav a{
+color: #EDDABA;
+text-decoration:none;
+margin:20px;
+font-size:18px;
+padding:25px 45px;
+background-color: #AD453E;
+border-radius:12px;
+}
+
+/* Efecto al pasar el mouse */
+nav a:hover{
+background-color: #555;
+border-radius:5px;
+}
+
+.contenedor{
+background: #49262b;
+width: 80%;
+margin: auto;
+}
+
+header{
+height:400px;
+background-image: url("img/bannerclavel.jpg");
+background-position: center;
+background-size: cover;
+}
+
+main{
+background: #EDDABA;
+color: #49262b;
+padding: 20px 30px;
+}
+
+main .foto{
+     width: 150px;
+     height: 150px;
+	 background-color: teal;
+	 border-radius:50%;
+     margin: -90px 0 20px 0;
+     border: 6px solid #49262b;
+}
+
+main .foto img{
+width: 100%;
+border-radius: 50%;
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+footer{
+background-color:#050000;
+text-align: center;
+padding: 25px;
+color: #3F1F24;
+}
+
+.uno{
+width: 50%;
+border: 3px solid #000000;
+}
+
+.uno h1,p,a{
+background-color: #AD453E;
+color: white;
+margin: 20px;
+padding: 20px;
+}
+
+nav a{
+display: inline-block;
+border-radius: 50px;
+}
